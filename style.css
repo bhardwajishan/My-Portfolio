@@ -1,0 +1,191 @@
+*{
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #FCF3CA;
+}
+
+/*Navigation Bar*/
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*My Logo*/
+.name{
+    padding: 10px 0px 10px 40px ;
+    display: flex;
+    justify-content: space-around;
+}
+/*Photo*/
+.name img{
+    margin-left: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid #0A1D37;
+}
+/*Text*/
+.name h3{
+    padding-left: 15px;
+    font-size: 40px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+/*Social Media Links*/
+.social{
+    margin-right: 50px;
+    padding: 10px 0px 10px 40px ;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Social text*/
+.social h3{
+    font-size: 40px;
+    font-weight: 500;
+    font-style: oblique;
+}
+
+/*links*/
+
+.links{
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.links a{
+
+    padding: 0px 15px;
+}
+
+/*Summary*/
+.summary{
+    margin-top: 200px;
+    text-align: center;
+}
+
+.summary h1{
+    font-size: 90px;
+    font-weight: 600;
+}
+
+.summary h3{
+    font-style: oblique;
+    margin-top: 40px;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+
+.about{
+    margin-top: 200px;
+    text-align: center;
+}
+
+.about h3{
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.about h4{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+/*Section*/
+
+.section{
+    margin-top: 100px;
+    padding: 40px 0px;
+    padding-bottom: 130px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.knowme{
+    width: 35%;
+}
+
+.section h4{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.section p{
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 100px;
+    font-style: oblique;
+}
+
+/*Buttons*/
+
+
+button{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.project{
+    margin-top: 50px;
+}
+
+.project ul{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+/*Contact*/
+
+.contact{
+    background-color: #0A1D37;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-left{
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+.contact-left h5{
+    color: whitesmoke;
+    font-size: 15px;
+    font-style: oblique;
+    font-weight: 300;
+
+}
+
+.contact-right{
+    margin-top: 10px;
+    margin-right: 100px;
+}
+
+.contact-right h4{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 25px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.contact-right h5{
+    margin-top: 10px;
+    margin-left: 30px;
+    color: whitesmoke;
+    font-weight: 300;
+    font-size: 15px;
+    font-style: oblique;
+}
